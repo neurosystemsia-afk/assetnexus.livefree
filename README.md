@@ -1,108 +1,97 @@
 <div align="center">
 
-# ⚡ ASSET NEXUS LIVE — Community Edition ⚡
+# 🚧 ASSET NEXUS LIVE — Community Edition (EN CONSTRUCCIÓN) 🚧
 
 ### 🎮 El sistema operativo de IA para creadores de Fortnite / UEFN
 #### _The AI operating system for Fortnite / UEFN creators_
 
 <br/>
 
+![Estado](https://img.shields.io/badge/ESTADO-EN%20CONSTRUCCIÓN-FF9800?style=for-the-badge)
+![WIP](https://img.shields.io/badge/WORK%20IN%20PROGRESS-🚧-FFB020?style=for-the-badge)
 ![Made with React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-3D-000000?style=for-the-badge&logo=three.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-⚡-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-Backend-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-![Self-Hosted](https://img.shields.io/badge/100%25-SELF--HOSTED-00E5FF?style=for-the-badge)
-![Free](https://img.shields.io/badge/PRECIO-GRATIS-37E0A0?style=for-the-badge)
-![Local First](https://img.shields.io/badge/LOCAL-FIRST-7C5CFF?style=for-the-badge)
+![Local First](https://img.shields.io/badge/META-LOCAL%20%2F%20INSTALABLE-7C5CFF?style=for-the-badge)
 ![Hecho en Colombia](https://img.shields.io/badge/Hecho%20en-COLOMBIA-FCD116?style=for-the-badge)
-
-<br/>
-
-> **🇪🇸 Genera modelos 3D, terrenos, miniaturas y más — con IA, desde una sola plataforma que corre en TU computador.**
->
-> **🇬🇧 Generate 3D models, terrains, thumbnails and more — AI-powered, from one platform that runs on YOUR machine.**
 
 </div>
 
 ---
 
-## 🟢 Importante: esto se **instala**, no se "ejecuta en la nube"
-
-Esta es la **edición comunitaria, gratuita y auto-hospedable** de Asset Nexus Live.
-
-| | |
-|---|---|
-| ✅ **Es una app instalable** | La descargas y la corres en **tu propio computador**. |
-| ✅ **Local-first** | Tú controlas tus datos y tus recursos. |
-| ✅ **Gratis** | Sin suscripción. La comunidad la puede usar y mejorar. |
-| ❌ **NO es un ejecutable (.exe) suelto** | Es un proyecto que instalas con un comando (o doble clic). |
-| ❌ **NO corre en nuestra nube** | La versión en la nube **genera costos** (servidores, GPU, APIs) y **requiere conexión permanente**. Por eso liberamos la versión que **tú** alojas. |
-
-> 💡 **En cristiano:** la nube cuesta dinero y necesita internet siempre. Esta versión la instalas en tu máquina, así cualquiera la puede usar **sin pagarle servidores a nadie**. Tú pones tus propias llaves y tu propia capacidad.
+> ## 🚧 AVISO: Proyecto en construcción activa
+>
+> **🇪🇸 Esto es un trabajo en progreso.** Estamos **adaptando** Asset Nexus Live (originalmente una app de nube) para convertirla en una aplicación **instalable y local**. Todavía **NO está terminada**: hay módulos en migración, piezas por pulir y cosas que pueden no funcionar aún. Se comparte de forma abierta para construir **junto a la comunidad**.
+>
+> **🇬🇧 This is a work in progress.** We're **adapting** Asset Nexus Live (originally a cloud app) into a **locally installable** application. It is **not finished yet** — modules are being migrated, things are being polished, and some parts may not work. Shared openly to build **together with the community**.
 
 ---
 
-## ✨ Módulos (las "Gems")
+## 🎯 Qué estamos construyendo (y por qué)
 
-| Gem | Qué hace | Estado |
+El objetivo de esta edición es **transformar** la plataforma para que:
+
+| Meta | Estado |
+|------|--------|
+| 📦 Que sea **instalable** (no un ejecutable suelto, no la nube) | 🟡 En progreso |
+| 💻 Que corra **localmente en tu propio computador** | 🟡 En progreso |
+| 🆓 Que sea **gratis** para la comunidad UEFN | 🟢 Sí |
+| 🔧 Que cualquiera pueda **mejorarla** | 🟢 Sí |
+
+> 💡 **¿Por qué local y no en la nube?** La versión en la nube **genera costos** (servidores, GPU, APIs) y **necesita conexión permanente**. Por eso estamos adaptando esta versión para que **tú la alojes en tu máquina**, con tus propios recursos y tus propias llaves. Así la puede usar cualquiera sin pagarle servidores a nadie.
+
+---
+
+## ✨ Módulos (las "Gems") — estado actual
+
+> ⚠️ Los estados pueden cambiar mientras avanza la construcción.
+
+| Gem | Qué hará | Estado |
 |-----|----------|--------|
-| 🌍 **GAIA** | Terrenos 3D procedurales (heightmaps 16-bit) con vista previa en tiempo real | 🟢 Activo |
-| 🎨 **SPECTRA** | Miniaturas optimizadas para la pestaña Discovery de Fortnite | 🟢 Activo |
-| ⏳ **KRONOS** | Forja rápida de 3D | 🟢 Activo |
-| 🗿 **TITAN** | Modelos y concept art 3D con IA (GLB/OBJ/FBX) | 🟢 Activo |
-| 🧠 **PERSEUS** | Generación de código **Verse** para UEFN | 🔜 Próximamente |
+| 🌍 **GAIA** | Terrenos 3D procedurales (heightmaps 16-bit) | 🟡 En adaptación |
+| 🎨 **SPECTRA** | Miniaturas para la pestaña Discovery de Fortnite | 🟡 En adaptación |
+| ⏳ **KRONOS** | Forja rápida de 3D | 🟡 En adaptación |
+| 🗿 **TITAN** | Modelos / concept art 3D con IA | 🟡 En adaptación |
+| 🧠 **PERSEUS** | Código **Verse** para UEFN | 🔜 Próximamente |
 | 🕸️ **EXODIA** | Pipeline visual de agentes IA | 🔜 Próximamente |
 | 🐉 **SLYFER** | Copiloto en tiempo real | 🔜 Próximamente |
 
 ---
 
-## 🚀 Instalación rápida (Windows)
+## 🧪 Probarlo (modo desarrollo)
 
-**Requisito previo:** tener [Node.js](https://nodejs.org) (versión LTS).
+> Aún en construcción — espera ver cosas incompletas. Requiere [Node.js](https://nodejs.org) (LTS).
 
-### Opción A — Doble clic (la más fácil)
-1. Descarga este repositorio (botón verde **Code → Download ZIP**) y descomprímelo.
-2. Doble clic en **`install.bat`** → instala todo solo.
-3. Abre el archivo **`.env`** y pon tus datos de Supabase (ver abajo).
-4. Doble clic en **`start.bat`** → abre la app en `http://localhost:8080`.
-
-### Opción B — Terminal
 ```bash
 git clone https://github.com/neurosystemsia-afk/assetnexus.livefree.git
 cd assetnexus.livefree
 npm install
-cp .env.example .env   # edita .env con tus datos
+cp .env.example .env   # edita .env con tus datos de Supabase
 npm run dev
 ```
 
----
+En Windows también puedes usar **`install.bat`** y luego **`start.bat`** (doble clic).
 
-## 🔑 Configuración (para que la generación funcione)
-
-La **interfaz** funciona apenas la instalas. Para que los módulos **generen** de verdad necesitas tus **propias llaves** (es lo que hace que sea gratis y self-hosted):
-
-1. **Supabase** (gratis en [supabase.com](https://supabase.com)) → copia `VITE_SUPABASE_URL` y `VITE_SUPABASE_PUBLISHABLE_KEY` en tu `.env`.
-2. **Proveedores de IA** (NVIDIA, fal, etc.) → se configuran como _secrets_ en tu proyecto Supabase, no en el código.
-
-> Sin estas llaves la app abre y navega perfecto, pero la generación no devuelve resultados. Tú pones tus llaves, tú controlas tus costos. 🔐
+La **interfaz** carga, pero la **generación** todavía depende de configurar Supabase + tus propias llaves de IA (y sigue en ajuste).
 
 ---
 
-## 🧩 ¿Qué incluye esta edición comunitaria?
+## 🗺️ Hoja de ruta (en construcción)
 
-✅ **Incluido:** módulos de generación (Titan, Spectra, Gaia, Kronos), interfaz completa, visor 3D, instaladores.
-
-❌ **No incluido** (es la parte privada/comercial): panel de administración, sistema de pagos y créditos, módulos de seguridad, y el **algoritmo propietario de optimización** del autor.
-
-> Si la mejoras, **compártelo**. Esa es la idea. 🤝
+- [x] Liberar la base como proyecto abierto
+- [x] Quitar secretos y partes privadas (admin, pagos, seguridad)
+- [x] Acceso sin login para la comunidad
+- [ ] Terminar la adaptación de cada módulo para correr 100% local
+- [ ] Instalador de un solo paso más simple
+- [ ] Documentación completa
+- [ ] Soporte de modelos locales (para que sea gratis de verdad sin APIs de pago)
 
 ---
 
-## 🛠️ Stack
+## 🧩 Nota honesta sobre el alcance
 
-`React 18` · `TypeScript` · `Vite` · `Tailwind` · `shadcn/ui` · `Three.js / React-Three-Fiber` · `Supabase` · `Framer Motion`
+Esta edición **abierta** NO incluye: panel de administración, pagos/créditos, módulos de seguridad, ni el **algoritmo propietario** del autor. Esas piezas se mantienen privadas. Lo que se comparte es la **carcasa funcional** para que la comunidad la use y la mejore mientras el proyecto sigue creciendo.
 
 ---
 
@@ -113,13 +102,11 @@ La **interfaz** funciona apenas la instalas. Para que los módulos **generen** d
 **Daniel Velásquez Cícero** — Fundador & CEO
 **NEURO SYSTEM I.A. S.A.S.** 🇨🇴 (NIT: 901.985.131-1)
 
-_Construido con disciplina, resiliencia y orgullo colombiano._
-_Built with discipline, resilience and Colombian pride._
+_Construido con disciplina, resiliencia y orgullo colombiano._ 🇨🇴
 
 <br/>
 
-⭐ **Si te sirve, deja una estrella y comparte con la comunidad UEFN** ⭐
-
-![License](https://img.shields.io/badge/Licencia-Community-00E5FF?style=for-the-badge)
+🚧 **Proyecto en construcción — vuelve pronto para ver avances** 🚧
+⭐ Deja una estrella para seguir el progreso ⭐
 
 </div>
